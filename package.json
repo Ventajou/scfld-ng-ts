@@ -1,0 +1,16 @@
+{
+  "name": "scfld-ng-ts",
+  "version": "0.0.1",
+  "description": "A Scfld plugin to generate Angular 1.x projects that use TypeScript and Gulp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "André Rieussec",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^0.10.0",
+    "lodash": "^3.10.1",
+    "q": "^1.4.1"
+  }
+}
