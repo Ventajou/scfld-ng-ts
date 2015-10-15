@@ -7,7 +7,7 @@ gulp.task('default', ['build'], function () {
 
   watch(config.appPath + '/*.*', function () { gulp.start('root'); });
   watch(config.appPath + '/styles/**/*.scss', function () { gulp.start('sass'); });
-  watch(['typings/**/*.d.ts', config.appPath + '/src/**/*.ts'], function () { gulp.start('compile:demo'); });
+  watch(['typings/**/*.d.ts', config.appPath + '/src/**/*.ts'], function () { gulp.start('compile'); });
   watch(config.appPath + '/src/**/*.html', function () { gulp.start('templates'); });
   watch(config.appPath + '/images/**/*', function () { gulp.start('images'); });
   watch(config.appPath + '/fonts/**/*', function () { gulp.start('fonts'); });
