@@ -28,6 +28,8 @@ module.exports = {
       }
     ];
 
+    console.log('\n  This plugin will help you set up a basic Angular 1.x project that uses Typescript as a language and Gulp as a build tool.\n');
+
     inquirer.prompt(questions, function(answers) {
 
       answers.moduleName = _.camelCase(answers.name);
@@ -41,9 +43,9 @@ module.exports = {
         ],
         globalDeps: ['gulp', 'bower'],
         postInit: [
-          'npm i',
-          'bower install',
-          'tsd install'
+          { cmd: 'npm',   args: ['i'] },
+          { cmd: 'bower', args: ['install'] },
+          { cmd: 'tsd',   args: ['install'] }
         ]
       })
     });
