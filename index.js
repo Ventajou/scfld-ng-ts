@@ -43,9 +43,9 @@ module.exports = {
         ],
         globalDeps: ['gulp', 'bower'],
         postInit: [
-          { cmd: 'npm',   args: ['i'] },
-          { cmd: 'bower', args: ['install'] },
-          { cmd: 'tsd',   args: ['install'] }
+          'npm i',
+          'bower install',
+          'tsd install'
         ]
       })
     });
