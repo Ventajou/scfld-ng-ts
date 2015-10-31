@@ -41,7 +41,7 @@ module.exports = {
         sources: [
           path.join(__dirname, 'template')
         ],
-        globalDeps: ['gulp', 'bower'],
+        globalDeps: ['gulp', 'bower', 'tsd'],
         postInit: [
           'npm i',
           'bower install',

@@ -7,7 +7,7 @@ module.exports = {
 
   buildPath: './.tmp/build',
   appPath: './app',
-  appModule: '{%=moduleName %}',
+  appModule: '<%=moduleName %>',
 
   processors: [
     autoprefixer({browsers: ['last 2 versions']}),

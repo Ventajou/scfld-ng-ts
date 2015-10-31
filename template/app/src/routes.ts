@@ -1,4 +1,4 @@
-namespace {%=moduleName %} {
+namespace <%=moduleName %> {
   app.config((
     $locationProvider: ng.ILocationProvider,
     $urlRouterProvider: ng.ui.IUrlRouterProvider,

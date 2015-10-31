@@ -1,6 +1,6 @@
-# {%=name %}
+# <%=name %>
 
-{%=description %}
+<%=description %>
 
 ## Useful Gulp tasks
 

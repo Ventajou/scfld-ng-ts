@@ -1,11 +1,11 @@
 {
-  "name": "{%=name %}",
+  "name": "<%=name %>",
   "version": "0.0.1",
   "authors": [
-    "{%=author %}"
+    "<%=author %>"
   ],
-  "description": "{%=description %}",
-  "license": "{%=license %}",
+  "description": "<%=description %>",
+  "license": "<%=license %>",
   "dependencies": {
     "jquery": "~2.1.4",
     "lodash": "~3.10.1",
