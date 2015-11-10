@@ -12,5 +12,10 @@
     "inquirer": "^0.10.0",
     "lodash": "^3.10.1",
     "q": "^1.4.1"
-  }
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/ventajou/scfld-ng-ts"
+  },
+  "preferGlobal": true
 }
